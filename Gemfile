@@ -27,7 +27,7 @@ gem 'jquery-rails'
 
 # added by whediger for horoku compliance
 group :production do
-  gem 'pg', '0.12.2'
+  gem 'pg'
 end
 
 #--------------------below has not been modified by whediger-------------------------------

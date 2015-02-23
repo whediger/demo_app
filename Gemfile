@@ -5,9 +5,9 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8'
 
-group :development do
-  gem 'pg'
-end  
+
+gem 'pg'
+  
 
 group :assets do
   # Use SCSS for stylesheets
@@ -25,10 +25,7 @@ end
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 
-# added by whediger for horoku compliance
-group :production do
-  gem 'pg'
-end
+
 
 #--------------------below has not been modified by whediger-------------------------------
 

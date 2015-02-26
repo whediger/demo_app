@@ -5,13 +5,13 @@ ruby '2.0.0'
 gem 'rails', '4.1.8'
 
 
-group :production do
-  gem 'pg'
-end
-
-group :test, :production do
-  gem 'pg'
-end
+#group :production do
+#  gem 'pg', '0.18.1'
+#end
+gem 'pg', '0.18.1'
+#group :test, :production do
+#  gem 'pg', '0.18.1'
+#end
   
 
 group :assets do
